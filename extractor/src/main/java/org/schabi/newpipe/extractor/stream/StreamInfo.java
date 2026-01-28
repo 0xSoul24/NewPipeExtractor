@@ -362,6 +362,16 @@ public class StreamInfo extends Info {
         } catch (final Exception e) {
             streamInfo.addError(e);
         }
+        try {
+            streamInfo.setServerAbrStreamingUrl(extractor.getServerAbrStreamingUrl());
+        } catch (final Exception e) {
+            streamInfo.addError(e);
+        }
+        try {
+            streamInfo.setUstreamerConfig(extractor.getUstreamerConfig());
+        } catch (final Exception e) {
+            streamInfo.addError(e);
+        }
 
         streamInfo.setRelatedItems(ExtractorHelper.getRelatedItemsOrLogError(streamInfo,
                 extractor));
@@ -395,6 +405,8 @@ public class StreamInfo extends Info {
     private List<VideoStream> videoStreams = List.of();
     private List<AudioStream> audioStreams = List.of();
     private List<VideoStream> videoOnlyStreams = List.of();
+    private String serverAbrStreamingUrl = "";
+    private String ustreamerConfig = "";
 
     private String dashMpdUrl = "";
     private String hlsUrl = "";
@@ -787,5 +799,21 @@ public class StreamInfo extends Info {
 
     public void setLiveChatContinuation(final String liveChatContinuation) {
         this.liveChatContinuation = liveChatContinuation;
+    }
+
+    public String getServerAbrStreamingUrl() {
+        return serverAbrStreamingUrl;
+    }
+
+    public void setServerAbrStreamingUrl(final String serverAbrStreamingUrl) {
+        this.serverAbrStreamingUrl = serverAbrStreamingUrl;
+    }
+
+    public String getUstreamerConfig() {
+        return ustreamerConfig;
+    }
+
+    public void setUstreamerConfig(final String ustreamerConfig) {
+        this.ustreamerConfig = ustreamerConfig;
     }
 }
