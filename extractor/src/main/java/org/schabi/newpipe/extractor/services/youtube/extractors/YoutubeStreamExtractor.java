@@ -679,7 +679,8 @@ public class YoutubeStreamExtractor extends StreamExtractor {
         return java.util.stream.Stream.of(
             // html5StreamingData,
             new Pair<>(visionOsStreamingData, visionOsCpn))
-            .filter(data -> data.getFirst() != null && data.getFirst().has(SERVER_ABR_STREAMING_URL))
+            .filter(data -> data.getFirst() != null
+                                && data.getFirst().has(SERVER_ABR_STREAMING_URL))
                 .map(data -> data.getFirst().getString(SERVER_ABR_STREAMING_URL)
                         + "&cpn=" + data.getSecond())
             .findFirst()
