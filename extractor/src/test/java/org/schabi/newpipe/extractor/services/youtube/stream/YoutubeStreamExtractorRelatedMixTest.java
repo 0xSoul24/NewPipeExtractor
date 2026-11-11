@@ -2,7 +2,7 @@ package org.schabi.newpipe.extractor.services.youtube.stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
-import static org.schabi.newpipe.extractor.ExtractorAsserts.assertContains;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertGreaterOrEqual;
 import static org.schabi.newpipe.extractor.ServiceList.YouTube;
 import static org.schabi.newpipe.extractor.services.youtube.stream.YoutubeStreamExtractorDefaultTest.YOUTUBE_LICENCE;
@@ -101,9 +101,13 @@ public class YoutubeStreamExtractorRelatedMixTest extends DefaultStreamExtractor
         final PlaylistInfoItem streamMix = streamMixes.get(0);
         assertSame(InfoItem.InfoType.PLAYLIST, streamMix.getInfoType());
         assertEquals(YouTube.getServiceId(), streamMix.getServiceId());
-        assertContains(URL, streamMix.getUrl());
-        assertContains("list=RD" + ID, streamMix.getUrl());
-        assertEquals("Mix – " + TITLE, streamMix.getName());
+        // YouTube doesn't always offer the mix of the current video, but may offer the mix of
+        // another (related) video instead, so only check that the mix is well-formed
+        assertTrue(streamMix.getUrl().matches(
+                        "https://www\\.youtube\\.com/watch\\?v=([\\w-]{11})&list=RD\\1"),
+                "Unexpected stream mix URL: " + streamMix.getUrl());
+        assertTrue(streamMix.getName().startsWith("Mix – "),
+                "Unexpected stream mix name: " + streamMix.getName());
         YoutubeTestsUtils.testImages(streamMix.getThumbnails());
     }
 }

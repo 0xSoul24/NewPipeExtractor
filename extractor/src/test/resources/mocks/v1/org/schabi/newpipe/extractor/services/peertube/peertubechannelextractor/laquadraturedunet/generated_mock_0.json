@@ -16,9 +16,6 @@
     "responseCode": 200,
     "responseMessage": "",
     "responseHeaders": {
-      "access-control-allow-credentials": [
-        "true"
-      ],
       "access-control-allow-origin": [
         "*"
       ],
@@ -26,28 +23,31 @@
         "Retry-After"
       ],
       "content-length": [
-        "2154"
+        "3052"
       ],
       "content-type": [
         "application/json; charset\u003dutf-8"
       ],
       "date": [
-        "Sat, 12 Jul 2025 10:23:37 GMT"
+        "Wed, 11 Nov 2026 09:01:12 GMT"
       ],
       "etag": [
-        "W/\"86a-uoS60j2MViA4QA4d2hHN5jsX28Y\""
+        "W/\"bec-w0ZLEvjZU7yLnUgTLg3oPubibWU\""
       ],
       "permissions-policy": [
         "interest-cohort\u003d()"
       ],
       "server": [
-        "nginx/1.22.1"
+        "nginx"
       ],
       "strict-transport-security": [
         "max-age\u003d63072000; includeSubDomains"
       ],
       "tk": [
         "N"
+      ],
+      "x-content-type-options": [
+        "nosniff"
       ],
       "x-frame-options": [
         "DENY"
@@ -59,13 +59,16 @@
         "500"
       ],
       "x-ratelimit-remaining": [
-        "488"
+        "498"
       ],
       "x-ratelimit-reset": [
-        "1752315824"
+        "1794387682"
+      ],
+      "x-request-id": [
+        "qf5xXQMUix2m7ZvfH5LQLK"
       ]
     },
-    "responseBody": "{\"url\":\"https://video.lqdn.fr/video-channels/lqdn_channel\",\"name\":\"lqdn_channel\",\"host\":\"video.lqdn.fr\",\"avatars\":[{\"width\":48,\"path\":\"/lazy-static/avatars/091969c0-50b9-40fd-ad06-18617d1d22f7.png\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/091969c0-50b9-40fd-ad06-18617d1d22f7.png\",\"createdAt\":\"2022-06-13T15:25:47.313Z\",\"updatedAt\":\"2022-06-14T09:48:05.516Z\"},{\"width\":120,\"path\":\"/lazy-static/avatars/e3bf8012-9b71-4b59-b004-c74f780f6549.png\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/e3bf8012-9b71-4b59-b004-c74f780f6549.png\",\"createdAt\":\"2022-06-13T15:25:47.297Z\",\"updatedAt\":\"2022-06-24T20:40:07.764Z\"},{\"width\":null,\"path\":\"/lazy-static/avatars/d47a618a-fd9e-4406-b105-b3af331cb7cd.png\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/d47a618a-fd9e-4406-b105-b3af331cb7cd.png\",\"createdAt\":\"2025-07-10T17:59:53.210Z\",\"updatedAt\":\"2025-07-10T17:59:53.210Z\"}],\"id\":1126,\"hostRedundancyAllowed\":false,\"followingCount\":0,\"followersCount\":1461,\"createdAt\":\"2020-08-24T09:07:04.954Z\",\"banners\":[],\"displayName\":\"La Quadrature du Net\",\"description\":\"La Quadrature du Net est une association de défense des libertés à l\u0027ère numérique. \",\"support\":\"Support us [by making a donation :)](https://don.lqdn.fr)\",\"isLocal\":false,\"updatedAt\":\"2025-04-08T15:11:54.316Z\",\"ownerAccount\":{\"url\":\"https://video.lqdn.fr/accounts/lqdn\",\"name\":\"lqdn\",\"host\":\"video.lqdn.fr\",\"avatars\":[{\"width\":48,\"path\":\"/lazy-static/avatars/66fc4467-43ca-45c0-a339-7547bc325ebc.jpg\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/66fc4467-43ca-45c0-a339-7547bc325ebc.jpg\",\"createdAt\":\"2022-06-14T20:01:14.736Z\",\"updatedAt\":\"2022-06-15T11:40:14.448Z\"},{\"width\":120,\"path\":\"/lazy-static/avatars/d0ff2ca9-9d26-4d7b-bedf-cc2271c85137.jpg\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/d0ff2ca9-9d26-4d7b-bedf-cc2271c85137.jpg\",\"createdAt\":\"2022-06-14T20:01:14.712Z\",\"updatedAt\":\"2022-06-15T07:50:40.981Z\"}],\"id\":57,\"hostRedundancyAllowed\":false,\"followingCount\":1,\"followersCount\":625,\"createdAt\":\"2018-03-06T18:56:01.615Z\",\"displayName\":\"LQDN\",\"description\":\"Le compte Peertube de La Quadrature du Net. \",\"updatedAt\":\"2020-08-24T09:35:19.311Z\"}}",
+    "responseBody": "{\"url\":\"https://video.lqdn.fr/video-channels/lqdn_channel\",\"name\":\"lqdn_channel\",\"host\":\"video.lqdn.fr\",\"avatars\":[{\"height\":120,\"width\":120,\"path\":\"/lazy-static/avatars/953de607-adf4-4e20-86da-2f7e45603017.png\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/953de607-adf4-4e20-86da-2f7e45603017.png\",\"createdAt\":\"2026-04-03T08:57:12.135Z\",\"updatedAt\":\"2026-04-03T08:57:41.928Z\"},{\"height\":1500,\"width\":1500,\"path\":\"/lazy-static/avatars/45fbcc89-ba4c-4408-a821-86da0fdac650.png\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/45fbcc89-ba4c-4408-a821-86da0fdac650.png\",\"createdAt\":\"2026-04-03T08:57:12.179Z\",\"updatedAt\":\"2026-04-03T09:44:16.820Z\"},{\"height\":600,\"width\":600,\"path\":\"/lazy-static/avatars/22a2bd25-903f-4a0a-b694-c1b945263edc.png\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/22a2bd25-903f-4a0a-b694-c1b945263edc.png\",\"createdAt\":\"2026-04-03T08:57:12.199Z\",\"updatedAt\":\"2026-04-03T08:57:12.199Z\"},{\"height\":48,\"width\":48,\"path\":\"/lazy-static/avatars/eed279ee-222e-4453-b8dd-22bdcfd6c79c.png\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/eed279ee-222e-4453-b8dd-22bdcfd6c79c.png\",\"createdAt\":\"2026-04-03T08:57:12.232Z\",\"updatedAt\":\"2026-04-03T09:06:56.011Z\"}],\"id\":1126,\"hostRedundancyAllowed\":false,\"followingCount\":0,\"followersCount\":1806,\"createdAt\":\"2020-08-24T09:07:04.954Z\",\"banners\":[],\"displayName\":\"La Quadrature du Net\",\"description\":\"La Quadrature du Net est une association de défense des libertés à l\u0027ère numérique. \",\"support\":\"Support us [by making a donation :)](https://don.lqdn.fr)\",\"publicEmail\":null,\"isLocal\":false,\"updatedAt\":\"2026-10-30T15:43:17.652Z\",\"ownerAccount\":{\"url\":\"https://video.lqdn.fr/accounts/lqdn\",\"name\":\"lqdn\",\"host\":\"video.lqdn.fr\",\"avatars\":[{\"height\":1500,\"width\":1500,\"path\":\"/lazy-static/avatars/9692e894-7209-46cf-be08-7251550aab1a.jpg\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/9692e894-7209-46cf-be08-7251550aab1a.jpg\",\"createdAt\":\"2026-04-03T10:36:04.258Z\",\"updatedAt\":\"2026-04-07T22:07:44.353Z\"},{\"height\":600,\"width\":600,\"path\":\"/lazy-static/avatars/a2e6b354-c8ac-4f0e-b4b6-71e01ecc6b2d.jpg\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/a2e6b354-c8ac-4f0e-b4b6-71e01ecc6b2d.jpg\",\"createdAt\":\"2026-04-03T10:36:04.282Z\",\"updatedAt\":\"2026-10-21T08:37:58.887Z\"},{\"height\":48,\"width\":48,\"path\":\"/lazy-static/avatars/3c21c3bf-a539-4764-a64f-583b1161d274.jpg\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/3c21c3bf-a539-4764-a64f-583b1161d274.jpg\",\"createdAt\":\"2026-04-03T10:36:04.285Z\",\"updatedAt\":\"2026-04-03T11:23:47.507Z\"},{\"height\":120,\"width\":120,\"path\":\"/lazy-static/avatars/f1c08c62-dfea-4660-a9ab-4084f9fdda99.jpg\",\"fileUrl\":\"https://framatube.org/lazy-static/avatars/f1c08c62-dfea-4660-a9ab-4084f9fdda99.jpg\",\"createdAt\":\"2026-04-03T10:36:04.234Z\",\"updatedAt\":\"2026-04-03T11:11:40.195Z\"}],\"id\":57,\"hostRedundancyAllowed\":false,\"followingCount\":1,\"followersCount\":747,\"createdAt\":\"2018-03-06T18:56:01.615Z\",\"displayName\":\"LQDN\",\"description\":\"Le compte Peertube de La Quadrature du Net. \",\"updatedAt\":\"2020-08-24T09:35:19.311Z\"}}",
     "latestUrl": "https://framatube.org/api/v1/video-channels/lqdn_channel@video.lqdn.fr"
   }
 }

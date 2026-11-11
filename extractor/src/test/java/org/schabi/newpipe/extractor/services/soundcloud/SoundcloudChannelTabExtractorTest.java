@@ -56,14 +56,14 @@ class SoundcloudChannelTabExtractorTest {
     static class Albums extends DefaultListExtractorTest<ChannelTabExtractor> {
         @Override
         protected ChannelTabExtractor createExtractor() throws Exception {
-            return SoundCloud.getChannelTabExtractorFromId("4803918", ChannelTabs.ALBUMS);
+            return SoundCloud.getChannelTabExtractorFromId("5352630", ChannelTabs.ALBUMS);
         }
 
         @Override public StreamingService expectedService() throws Exception { return SoundCloud; }
         @Override public String expectedName() throws Exception { return ChannelTabs.ALBUMS; }
-        @Override public String expectedId() throws Exception { return "4803918"; }
-        @Override public String expectedUrlContains() throws Exception { return "https://soundcloud.com/bigsean-1/albums"; }
-        @Override public String expectedOriginalUrlContains() throws Exception { return "https://soundcloud.com/bigsean-1/albums"; }
+        @Override public String expectedId() throws Exception { return "5352630"; }
+        @Override public String expectedUrlContains() throws Exception { return "https://soundcloud.com/paparoach/albums"; }
+        @Override public String expectedOriginalUrlContains() throws Exception { return "https://soundcloud.com/paparoach/albums"; }
         @Override public InfoItem.InfoType expectedInfoItemType() { return InfoItem.InfoType.PLAYLIST; }
     }
 

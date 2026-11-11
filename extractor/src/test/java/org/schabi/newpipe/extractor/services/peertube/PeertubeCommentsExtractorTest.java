@@ -144,16 +144,16 @@ public class PeertubeCommentsExtractorTest {
         void testGetComments() throws IOException, ExtractionException {
             assertFalse(comments().getItems().isEmpty());
             final Optional<CommentsInfoItem> nestedCommentHeadOpt =
-                findCommentWithId("34293", comments().getItems());
+                findCommentWithId("44331", comments().getItems());
             assertTrue(nestedCommentHeadOpt.isPresent());
-            assertTrue(findNestedCommentWithId("34294", nestedCommentHeadOpt.get()), "The nested " +
+            assertTrue(findNestedCommentWithId("44345", nestedCommentHeadOpt.get()), "The nested " +
                 "comment replies were not found");
         }
 
         @Test
         void testHasCreatorReply() {
             // NOTE: There is currently no creator replied comment
-            assertCreatorReply("34293", false);
+            assertCreatorReply("44331", false);
         }
 
         private void assertCreatorReply(final String id, final boolean expected) {

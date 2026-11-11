@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d686356180\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:00:11 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-d5c4-2; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340026-BOG, cache-bog-skbo2340026-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387611.290106,VS0,VE210"
+      ]
+    },
+    "responseBody": "{\"id\":686356180,\"type\":\"a\",\"title\":\"Catacomb Snatch Original Soundtrack\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/catacomb-snatch-original-soundtrack\",\"art_id\":2317982457,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"anosou, C418\",\"package_art\":[],\"featured_track_id\":1019762752,\"tracks\":[{\"track_id\":1019762752,\"track_license_id\":null,\"title\":\"Theme\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1019762752\u0026ts\u003d1794386328\u0026t\u003d151eac9089ca9aaf40ed292abe4aae4e535da995\"},\"duration\":82.0003,\"encodings_id\":482590832,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":686356180,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/theme\"},{\"track_id\":2508739237,\"track_license_id\":null,\"title\":\"Mummyf---er\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2508739237\u0026ts\u003d1794386328\u0026t\u003df30d314e91ed0bfe90216564d810d1aedaa3fb11\"},\"duration\":298.379,\"encodings_id\":1300407714,\"album_title\":null,\"band_name\":\"anosou\",\"art_id\":null,\"album_id\":686356180,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/mummyf-er\"},{\"track_id\":2565297746,\"track_license_id\":null,\"title\":\"Enforcer Brittanica\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2565297746\u0026ts\u003d1794386328\u0026t\u003de60212a82d75fb7d85083a2746431c23c75e7e9c\"},\"duration\":313.143,\"encodings_id\":1485103463,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":686356180,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/enforcer-brittanica\"},{\"track_id\":1644223280,\"track_license_id\":null,\"title\":\"Scarab\u0027s Gold\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1644223280\u0026ts\u003d1794386328\u0026t\u003d40a8e6a82bc4e040235928ac5a04da42090ad37c\"},\"duration\":265.143,\"encodings_id\":2381636418,\"album_title\":null,\"band_name\":\"anosou\",\"art_id\":null,\"album_id\":686356180,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/scarabs-gold\"},{\"track_id\":726024148,\"track_license_id\":null,\"title\":\"Dune Storm\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d726024148\u0026ts\u003d1794386328\u0026t\u003dede2bc19c273fbf067f28ab87da87ba40605285b\"},\"duration\":271.698,\"encodings_id\":1157494874,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":686356180,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/dune-storm\"},{\"track_id\":2674581892,\"track_license_id\":null,\"title\":\"Ending\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2674581892\u0026ts\u003d1794386328\u0026t\u003d92dc7cd846c7e7895e6f2baa28018fb60b630db1\"},\"duration\":102.621,\"encodings_id\":2803475742,\"album_title\":null,\"band_name\":\"anosou\",\"art_id\":null,\"album_id\":686356180,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/ending\"}],\"credits\":\"Mattias Häggström Gerdt, Daniel Rosenfeld\",\"about\":\"The soundtrack Mattias and I created for the Mojam of March 2012. We decided to not ask for any kind of donation as this was a charity project. So grab it for absolutely free!\\r\\n\\r\\nIf you want to know more about anosou, you can visit http://anosou.com\",\"album_id\":686356180,\"album_title\":\"Catacomb Snatch Original Soundtrack\",\"release_date\":1332201600,\"is_purchasable\":false,\"free_download\":true,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":null,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":6,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d686356180\u0026tralbum_type\u003da"
+  }
+}

@@ -111,8 +111,14 @@ class YoutubeDashManifestCreatorsTest extends DefaultSimpleExtractorTest<Youtube
         assertProgressiveStreams(extractor().getAudioStreams());
 
         // we are not able to generate DASH manifests of video formats with audio
-        assertThrows(CreationException.class,
-            () -> assertProgressiveStreams(extractor().getVideoStreams()));
+        // YouTube may not provide such formats anymore, so only check this if there are any
+        final boolean hasProgressiveVideoStreamsWithAudio = extractor().getVideoStreams()
+                .stream()
+                .anyMatch(stream -> stream.getDeliveryMethod() == DeliveryMethod.PROGRESSIVE_HTTP);
+        if (hasProgressiveVideoStreamsWithAudio) {
+            assertThrows(CreationException.class,
+                () -> assertProgressiveStreams(extractor().getVideoStreams()));
+        }
     }
 
     private void assertDashStreams(final List<? extends Stream> streams) throws Exception {

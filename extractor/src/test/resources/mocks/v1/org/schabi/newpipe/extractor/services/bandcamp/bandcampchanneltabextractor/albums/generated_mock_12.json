@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d1748185727\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 08:59:51 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-41cc-2; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340077-BOG, cache-bog-skbo2340077-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387592.776362,VS0,VE210"
+      ]
+    },
+    "responseBody": "{\"id\":1748185727,\"type\":\"a\",\"title\":\"0x10c\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/0x10c\",\"art_id\":3268981442,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":1252672578,\"tracks\":[{\"track_id\":1252672578,\"track_license_id\":null,\"title\":\"0x10c\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1252672578\u0026ts\u003d1794386328\u0026t\u003d7214e37087a3358f9b60eab22fc35743426ef14b\"},\"duration\":114.947,\"encodings_id\":136572362,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1748185727,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/0x10c\"},{\"track_id\":386733494,\"track_license_id\":null,\"title\":\"0\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d386733494\u0026ts\u003d1794386328\u0026t\u003d27921050c1645d43db1d05f3c2c270cdeabee664\"},\"duration\":74.4098,\"encodings_id\":3963845888,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1748185727,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/0\"}],\"credits\":null,\"about\":null,\"album_id\":1748185727,\"album_title\":\"0x10c\",\"release_date\":1410739200,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":0.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":2,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d1748185727\u0026tralbum_type\u003da"
+  }
+}

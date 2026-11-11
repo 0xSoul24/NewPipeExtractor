@@ -193,6 +193,33 @@ final class YoutubeThrottlingParameterUtils {
     @Nonnull
     private static String buildHelperFunction(@Nonnull final String javaScriptPlayerCode,
                                               @Nonnull final String deobfuscationFunctionName) {
+        return buildPlayerEnvironment(javaScriptPlayerCode)
+                + String.format("""
+                    function %s(n){
+                      const url = %s("https://www.youtube.com/", "s", undefined);
+                      url.set("n", n);
+                      const proto = Object.getPrototypeOf(url);
+                      const keys = Object.keys(proto).concat(Object.getOwnPropertyNames(proto));
+                      for (let i = 0; i < keys.length; i++) {
+                        const key = keys[i];
+                        if (!["constructor", "set", "get", "clone"].includes(key)) {
+                          url[key]();
+                          break;
+                        }
+                      }
+                      return url.get("n");
+                    }""", DEOBFUSCATION_FUNCTION_NAME, deobfuscationFunctionName);
+    }
+
+    /**
+     * Build JavaScript code which defines the whole base player code in a minimal browser-like
+     * environment, so that the player's own functions can be called directly.
+     *
+     * @param javaScriptPlayerCode the complete JavaScript base player code
+     * @return the player code, unwrapped from its closure, preceded by stubs of browser globals
+     */
+    @Nonnull
+    static String buildPlayerEnvironment(@Nonnull final String javaScriptPlayerCode) {
         final String strippedJavaScriptPlayerCode = javaScriptPlayerCode
                 .replace("var _yt_player={};(function(g){var window=this;", "")
                 .replace("})(_yt_player);", "");
@@ -231,21 +258,6 @@ final class YoutubeThrottlingParameterUtils {
                     globalThis.window = globalThis;
                 }
                 """
-                + strippedJavaScriptPlayerCode
-                + String.format("""
-                    function %s(n){
-                      const url = %s("https://www.youtube.com/", "s", undefined);
-                      url.set("n", n);
-                      const proto = Object.getPrototypeOf(url);
-                      const keys = Object.keys(proto).concat(Object.getOwnPropertyNames(proto));
-                      for (let i = 0; i < keys.length; i++) {
-                        const key = keys[i];
-                        if (!["constructor", "set", "get", "clone"].includes(key)) {
-                          url[key]();
-                          break;
-                        }
-                      }
-                      return url.get("n");
-                    }""", DEOBFUSCATION_FUNCTION_NAME, deobfuscationFunctionName);
+                + strippedJavaScriptPlayerCode;
     }
 }

@@ -220,7 +220,7 @@ public class PeertubeChannelExtractorTest {
         @Override
         @Test
         public void testFeedUrl() throws ParsingException {
-            assertEquals("https://framatube.org/feeds/videos.xml?videoChannelId=137", extractor().getFeedUrl());
+            assertEquals("https://framatube.org/feeds/videos.xml?videoChannelId=4287", extractor().getFeedUrl());
         }
 
         @Override

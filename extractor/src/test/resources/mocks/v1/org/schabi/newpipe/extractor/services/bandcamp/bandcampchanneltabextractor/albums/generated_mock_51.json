@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2872151352\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:00:16 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-mf14-6; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340043-BOG, cache-bog-skbo2340043-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387616.290273,VS0,VE212"
+      ]
+    },
+    "responseBody": "{\"id\":2872151352,\"type\":\"a\",\"title\":\"Mixes\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/mixes\",\"art_id\":670316162,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":1223722595,\"tracks\":[{\"track_id\":1223722595,\"track_license_id\":null,\"title\":\"20 kids\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1223722595\u0026ts\u003d1794386329\u0026t\u003d1119cc02694fe4b8d4a0b296ccf3a5f69da4a3da\"},\"duration\":214.0,\"encodings_id\":958096257,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/20-kids\"},{\"track_id\":3135713174,\"track_license_id\":null,\"title\":\"Confusion\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3135713174\u0026ts\u003d1794386329\u0026t\u003d6e04ca7cd13e85916a7313cab809f394c2850cdb\"},\"duration\":210.0,\"encodings_id\":401240219,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/confusion\"},{\"track_id\":4135829099,\"track_license_id\":null,\"title\":\"Incredibly detailed acid trip\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d4135829099\u0026ts\u003d1794386329\u0026t\u003d0d9f68a976c8e94caed7c00c8af153479bfe93f3\"},\"duration\":216.0,\"encodings_id\":2463754281,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/incredibly-detailed-acid-trip\"},{\"track_id\":3112580457,\"track_license_id\":null,\"title\":\"20 kards\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3112580457\u0026ts\u003d1794386329\u0026t\u003dab8b587074350a4a27c579ca8df7aaf78369701f\"},\"duration\":145.469,\"encodings_id\":1781925192,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/20-kards\"},{\"track_id\":1713534693,\"track_license_id\":null,\"title\":\"Kitten\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1713534693\u0026ts\u003d1794386329\u0026t\u003d9c504b27e221c14fb41c7917ad471475c9adf484\"},\"duration\":247.719,\"encodings_id\":507283194,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/kitten\"},{\"track_id\":1080304667,\"track_license_id\":null,\"title\":\"Pink\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1080304667\u0026ts\u003d1794386329\u0026t\u003da4f91c3d34ca3ae77d52d92e110ba9d09d2ec591\"},\"duration\":152.813,\"encodings_id\":1095372428,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/pink\"},{\"track_id\":159806438,\"track_license_id\":null,\"title\":\"Average C418\",\"track_num\":7,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d159806438\u0026ts\u003d1794386329\u0026t\u003dcf4301ac7edbdfd4e0f6c2b7785a74a9ea261ead\"},\"duration\":173.375,\"encodings_id\":1319186783,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/average-c418\"},{\"track_id\":2756542568,\"track_license_id\":null,\"title\":\"No but Yes\",\"track_num\":8,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2756542568\u0026ts\u003d1794386329\u0026t\u003df4b0b0b5940b1382e152b522a5f4489dfd63f63f\"},\"duration\":178.026,\"encodings_id\":2852948535,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2872151352,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/no-but-yes\"}],\"credits\":null,\"about\":null,\"album_id\":2872151352,\"album_title\":\"Mixes\",\"release_date\":1211500800,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":0.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":8,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2872151352\u0026tralbum_type\u003da"
+  }
+}

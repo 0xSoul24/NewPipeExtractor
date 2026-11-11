@@ -75,7 +75,7 @@ public class YoutubeStreamExtractorDefaultTest {
             initNewPipe("restricted");
 
             final StreamExtractor extractor =
-                    YouTube.getStreamExtractor(BASE_URL + "_PL2HJKxnOM");
+                    YouTube.getStreamExtractor(BASE_URL + "6aAmUNLF4yk");
             assertThrows(GeographicRestrictionException.class, extractor::fetchPage);
         }
 

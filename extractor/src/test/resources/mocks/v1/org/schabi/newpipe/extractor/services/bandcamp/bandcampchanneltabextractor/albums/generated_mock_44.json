@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2046239476\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:00:12 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-sgp2-3; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340049-BOG, cache-bog-skbo2340049-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387612.914855,VS0,VE210"
+      ]
+    },
+    "responseBody": "{\"id\":2046239476,\"type\":\"a\",\"title\":\"little things\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/little-things\",\"art_id\":2019445177,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":2420183342,\"tracks\":[{\"track_id\":1077969287,\"track_license_id\":null,\"title\":\"kaffee\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1077969287\u0026ts\u003d1794386328\u0026t\u003ddd35801d496922fdc8c4f349380f90d4ab510f69\"},\"duration\":36.6953,\"encodings_id\":1017269742,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/kaffee\"},{\"track_id\":2210605235,\"track_license_id\":null,\"title\":\"bummer\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2210605235\u0026ts\u003d1794386328\u0026t\u003d16a3ae94f0f487ac3f40e62a55c3e106f9e12eef\"},\"duration\":51.1112,\"encodings_id\":708228430,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/bummer\"},{\"track_id\":2420183342,\"track_license_id\":null,\"title\":\"peanuts\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2420183342\u0026ts\u003d1794386328\u0026t\u003df57c67bebd5382638dc0a9bccf722d6447555340\"},\"duration\":230.656,\"encodings_id\":2223692543,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/peanuts\"},{\"track_id\":4056329291,\"track_license_id\":null,\"title\":\"familiar faces\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d4056329291\u0026ts\u003d1794386328\u0026t\u003dd2620bb8e2abc9a697a055d0be7874ba19a97f27\"},\"duration\":177.579,\"encodings_id\":3754913524,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/familiar-faces\"},{\"track_id\":2834993980,\"track_license_id\":null,\"title\":\"it\u0027s complicated\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2834993980\u0026ts\u003d1794386328\u0026t\u003d15bde7209f11a2ba1556e23c74bcf25970d8ef18\"},\"duration\":142.194,\"encodings_id\":2905512604,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/its-complicated\"},{\"track_id\":91570495,\"track_license_id\":null,\"title\":\"hotel music\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d91570495\u0026ts\u003d1794386328\u0026t\u003de924e10614f043ad3aae368bea130ef8eb6665cc\"},\"duration\":172.992,\"encodings_id\":495826893,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/hotel-music\"},{\"track_id\":1328755437,\"track_license_id\":null,\"title\":\"repetition\",\"track_num\":7,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1328755437\u0026ts\u003d1794386328\u0026t\u003d17ec9152a363d8b693611ca348a13faa67c5f314\"},\"duration\":134.986,\"encodings_id\":2649794472,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/repetition\"},{\"track_id\":3116021428,\"track_license_id\":null,\"title\":\"sod\",\"track_num\":8,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3116021428\u0026ts\u003d1794386328\u0026t\u003d9af571b1cf242f9dbb459be5d35018f0a3aee3da\"},\"duration\":585.486,\"encodings_id\":2383227970,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/sod\"},{\"track_id\":3433861699,\"track_license_id\":null,\"title\":\"heyhey\",\"track_num\":9,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3433861699\u0026ts\u003d1794386328\u0026t\u003dd3aa2b49a36bde77c20beda59c52c34590ab01a7\"},\"duration\":131.217,\"encodings_id\":1038599740,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2046239476,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/heyhey\"}],\"credits\":null,\"about\":\"This album is what it is. Just little things that didn\u0027t fit anywhere or discarded projects.\",\"album_id\":2046239476,\"album_title\":\"little things\",\"release_date\":1295136000,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electro\",\"norm_name\":\"electro\",\"url\":\"/discover/electro\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":0.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":9,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2046239476\u0026tralbum_type\u003da"
+  }
+}

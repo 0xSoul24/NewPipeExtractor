@@ -115,8 +115,39 @@ final class YoutubeSignatureUtils {
 
             return globalVar + ";" + helperObject + deobfuscationFunction + ";" + callerFunction;
         } catch (final Exception e) {
+            try {
+                return getDeobfuscationCodeFromUrlBuilder(javaScriptPlayerCode);
+            } catch (final Exception fallbackException) {
+                e.addSuppressed(fallbackException);
+            }
             throw new ParsingException("Could not parse deobfuscation function", e);
         }
+    }
+
+    /**
+     * Get signature deobfuscation code for players where the deobfuscation is inlined into the
+     * streaming URL builder function (the one which sets {@code alr=yes}).
+     *
+     * <p>
+     * The deobfuscation there is spread over several helper functions which depend on the
+     * player's global variables, so instead of extracting them, the whole player code is defined
+     * and the URL builder is called with the obfuscated signature. The deobfuscated signature is
+     * then read back from the returned URL object.
+     * </p>
+     *
+     * @param javaScriptPlayerCode the complete JavaScript base player code
+     * @return the signature deobfuscation code
+     * @throws ParsingException if the URL builder function could not be found
+     */
+    @Nonnull
+    private static String getDeobfuscationCodeFromUrlBuilder(
+            @Nonnull final String javaScriptPlayerCode) throws ParsingException {
+        final String urlBuilderFunctionName = Parser.matchGroup1(
+                FUNCTION_REGEXES[0], javaScriptPlayerCode);
+        return YoutubeThrottlingParameterUtils.buildPlayerEnvironment(javaScriptPlayerCode)
+                + "function " + DEOBFUSCATION_FUNCTION_NAME + "(a){"
+                + "return String(" + urlBuilderFunctionName
+                + "(\"https://www.youtube.com/\",\"s\",a).get(\"s\"));}";
     }
 
     @Nonnull

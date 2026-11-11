@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d25023369\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 08:59:53 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-f23f-5; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340041-BOG, cache-bog-skbo2340041-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387594.652457,VS0,VE215"
+      ]
+    },
+    "responseBody": "{\"id\":25023369,\"type\":\"a\",\"title\":\"I forgot something, didn\u0027t I.\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/i-forgot-something-didnt-i\",\"art_id\":1189534938,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":3884420476,\"tracks\":[{\"track_id\":4242454728,\"track_license_id\":null,\"title\":\"The Long-Winded and Painful Death of Sweeney S Greenville\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d4242454728\u0026ts\u003d1794386328\u0026t\u003d46e21c494efa0ba0ebdb1785888c7b007c889b0e\"},\"duration\":418.391,\"encodings_id\":1486629678,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/the-long-winded-and-painful-death-of-sweeney-s-greenville\"},{\"track_id\":3884420476,\"track_license_id\":null,\"title\":\"Meatcraft\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3884420476\u0026ts\u003d1794386328\u0026t\u003df4f26eaaf77d904927e6beb3c3a6faf2389036da\"},\"duration\":211.268,\"encodings_id\":1700736477,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/meatcraft\"},{\"track_id\":485596539,\"track_license_id\":null,\"title\":\"shit with a twist!\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d485596539\u0026ts\u003d1794386328\u0026t\u003dbe125e6a78d6e5db3919ff8271282c940be893c6\"},\"duration\":246.797,\"encodings_id\":1763253381,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/shit-with-a-twist\"},{\"track_id\":2492344176,\"track_license_id\":null,\"title\":\"a game select thing\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2492344176\u0026ts\u003d1794386328\u0026t\u003d603263058c103e3744316ebfb8788b1860979861\"},\"duration\":76.4702,\"encodings_id\":3907969725,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/a-game-select-thing\"},{\"track_id\":3541697956,\"track_license_id\":null,\"title\":\"Something loud, old and scary\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3541697956\u0026ts\u003d1794386328\u0026t\u003da8e6c02bfe393d0c9ffd0bbe1faef200c3b9e2d9\"},\"duration\":226.753,\"encodings_id\":2924624967,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/something-loud-old-and-scary\"},{\"track_id\":2132428385,\"track_license_id\":null,\"title\":\"song that didn\u0027t get on the new album #1\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2132428385\u0026ts\u003d1794386328\u0026t\u003d27e43c064b46271744b892b9246bee957adab6f7\"},\"duration\":142.5,\"encodings_id\":4046236422,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/song-that-didnt-get-on-the-new-album-1\"},{\"track_id\":1470031074,\"track_license_id\":null,\"title\":\"song that didn\u0027t get on the new album #2\",\"track_num\":7,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1470031074\u0026ts\u003d1794386328\u0026t\u003de63ad382a55428f5fd3b198b729688352a08ad46\"},\"duration\":405.0,\"encodings_id\":1136536992,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/song-that-didnt-get-on-the-new-album-2\"},{\"track_id\":4074898601,\"track_license_id\":null,\"title\":\"something avant garde and experimental, which could have just been called experimental\",\"track_num\":8,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d4074898601\u0026ts\u003d1794386328\u0026t\u003d8aa99a63ef3769db23133bafdee741d526a5b53e\"},\"duration\":250.248,\"encodings_id\":1713526378,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/something-avant-garde-and-experimental-which-could-have-just-been-called-experimental\"},{\"track_id\":2051335984,\"track_license_id\":null,\"title\":\"Inappropiate BADWORD Deluxe\",\"track_num\":9,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2051335984\u0026ts\u003d1794386328\u0026t\u003d59c5d5d0d6f03fbb21c5e40c5b27e466b8a989cd\"},\"duration\":263.708,\"encodings_id\":754562081,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":25023369,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":null,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":false,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/inappropiate-badword-deluxe\"}],\"credits\":null,\"about\":null,\"album_id\":25023369,\"album_title\":\"I forgot something, didn\u0027t I.\",\"release_date\":1310947200,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":0.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":9,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d25023369\u0026tralbum_type\u003da"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d3900285131\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:00:02 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-f23f-1; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340043-BOG, cache-bog-skbo2340043-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387602.471011,VS0,VE192"
+      ]
+    },
+    "responseBody": "{\"id\":3900285131,\"type\":\"a\",\"title\":\"Cookie Clicker\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/cookie-clicker\",\"art_id\":2301213149,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":1847033482,\"tracks\":[{\"track_id\":1327676748,\"track_license_id\":null,\"title\":\"hover\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1327676748\u0026ts\u003d1794386327\u0026t\u003d3db37c1d09cd6f73c64e8028bae955e8b31b5ef9\"},\"duration\":96.0,\"encodings_id\":2551004871,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":3900285131,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/hover\"},{\"track_id\":1847033482,\"track_license_id\":null,\"title\":\"click\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1847033482\u0026ts\u003d1794386327\u0026t\u003d62090ab523b46cbb853aa0364bb201c28d1bb22f\"},\"duration\":512.0,\"encodings_id\":73876346,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":3900285131,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/click\"},{\"track_id\":2052737161,\"track_license_id\":null,\"title\":\"grandmapocalypse\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2052737161\u0026ts\u003d1794386327\u0026t\u003de7fdc53547572734db0434c153141c0392e87ddb\"},\"duration\":304.0,\"encodings_id\":469069780,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":3900285131,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/grandmapocalypse\"},{\"track_id\":2594366175,\"track_license_id\":null,\"title\":\"ascend\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2594366175\u0026ts\u003d1794386327\u0026t\u003d4f703172454c278718c4337034181d51174c743d\"},\"duration\":294.0,\"encodings_id\":2456558028,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":3900285131,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/ascend\"},{\"track_id\":741420986,\"track_license_id\":null,\"title\":\"click forever\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d741420986\u0026ts\u003d1794386327\u0026t\u003dea68e68dbe8a31f63523aaf7db157b4e44a8eb37\"},\"duration\":130.215,\"encodings_id\":3429754195,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":3900285131,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/click-forever\"}],\"credits\":\"C418\",\"about\":\"The official soundtrack to Cookie Clicker, somehow. If you’ve ever wanted to feel like suffocating the universe with cookie dough, but wanted it to sound chill, boy do we have the soundtrack for you! Created by music dude who also happened to have worked on Minecraft as well, C418. In his words \\\"I ate a cookie once\\\".\",\"album_id\":3900285131,\"album_title\":\"Cookie Clicker\",\"release_date\":1630454400,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"OST\",\"norm_name\":\"ost\",\"url\":\"/discover/ost\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"cookie clicker\",\"norm_name\":\"cookie-clicker\",\"url\":\"/discover/cookie-clicker\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"game\",\"norm_name\":\"game\",\"url\":\"/discover/game\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"soundtrack\",\"norm_name\":\"soundtrack\",\"url\":\"/discover/soundtrack\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":5.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":5,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d3900285131\u0026tralbum_type\u003da"
+  }
+}

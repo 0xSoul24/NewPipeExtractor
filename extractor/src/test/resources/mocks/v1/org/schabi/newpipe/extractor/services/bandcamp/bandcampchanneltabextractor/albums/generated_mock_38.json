@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d1647701249\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:00:08 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-m46v-4; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340073-BOG, cache-bog-skbo2340073-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387608.094418,VS0,VE620"
+      ]
+    },
+    "responseBody": "{\"id\":1647701249,\"type\":\"a\",\"title\":\"72 Minutes Of Fame\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/72-minutes-of-fame\",\"art_id\":3109064285,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":2868178133,\"tracks\":[{\"track_id\":2868178133,\"track_license_id\":null,\"title\":\"Timelapse Kingdom\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2868178133\u0026ts\u003d1794386328\u0026t\u003d67d3bd538fed3701a998582f50a51919e179e756\"},\"duration\":504.0,\"encodings_id\":643671447,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/timelapse-kingdom\"},{\"track_id\":2005025709,\"track_license_id\":null,\"title\":\"United Colors of Scrapyard\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2005025709\u0026ts\u003d1794386328\u0026t\u003d4359061fdcae47788c160c34479fc3f8db5632d0\"},\"duration\":476.0,\"encodings_id\":832110785,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/united-colors-of-scrapyard\"},{\"track_id\":104865133,\"track_license_id\":null,\"title\":\"Alive\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d104865133\u0026ts\u003d1794386328\u0026t\u003d775b61a4dd4271ea4ca1fef482aa069180eca556\"},\"duration\":334.0,\"encodings_id\":2497623948,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":true,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/alive\"},{\"track_id\":64272021,\"track_license_id\":null,\"title\":\"I Jike my Lob\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d64272021\u0026ts\u003d1794386328\u0026t\u003d9df519ab2799a36a3d250200bf8039850c160f2b\"},\"duration\":383.0,\"encodings_id\":1055774616,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/i-jike-my-lob\"},{\"track_id\":50367188,\"track_license_id\":null,\"title\":\"BD08\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d50367188\u0026ts\u003d1794386328\u0026t\u003dee2bd9e0948398cc941b587247e1fcd365723d33\"},\"duration\":158.609,\"encodings_id\":2837042443,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/bd08\"},{\"track_id\":2933334068,\"track_license_id\":null,\"title\":\"You Have to Cut the Dope\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2933334068\u0026ts\u003d1794386328\u0026t\u003d06a47cb57d227768ad3d1422e70ea65c046ead72\"},\"duration\":513.891,\"encodings_id\":1535148104,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/you-have-to-cut-the-dope\"},{\"track_id\":2936776747,\"track_license_id\":null,\"title\":\"Marketing Squander Versus the Little Man\",\"track_num\":7,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2936776747\u0026ts\u003d1794386328\u0026t\u003dfcbf54f18537f48feaa4f716912a1e19101330c8\"},\"duration\":522.5,\"encodings_id\":136642487,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/marketing-squander-versus-the-little-man\"},{\"track_id\":1436647000,\"track_license_id\":null,\"title\":\"From the Window\",\"track_num\":8,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1436647000\u0026ts\u003d1794386328\u0026t\u003deb03aade30584f2787fa806b4ec69cd73a91596e\"},\"duration\":418.648,\"encodings_id\":2364847592,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":true,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/from-the-window\"},{\"track_id\":2172429656,\"track_license_id\":null,\"title\":\"Along the Busiest of Roads\",\"track_num\":9,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2172429656\u0026ts\u003d1794386328\u0026t\u003d41d0da21b4d21f968ac8913217758922d33ffeea\"},\"duration\":311.25,\"encodings_id\":2163759140,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/along-the-busiest-of-roads\"},{\"track_id\":1715557293,\"track_license_id\":null,\"title\":\"Welcome Back to the Machine\",\"track_num\":10,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1715557293\u0026ts\u003d1794386328\u0026t\u003d7221920831d7619dffa249a8bee42bc47c82934a\"},\"duration\":318.102,\"encodings_id\":3770263453,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/welcome-back-to-the-machine\"},{\"track_id\":2801753583,\"track_license_id\":null,\"title\":\"Stilbruch\",\"track_num\":11,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2801753583\u0026ts\u003d1794386328\u0026t\u003d40b886a8fac90e708004e4094ca96c1fc52ad573\"},\"duration\":380.0,\"encodings_id\":2383193493,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1647701249,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":0.99,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/stilbruch\"}],\"credits\":null,\"about\":\"Imagine an album with just a few tunes. Now imagine that album being house, breakbeat, drum\u0026bass, ambient and orchestral... well. It\u0027s all that and more!\",\"album_id\":1647701249,\"album_title\":\"72 Minutes Of Fame\",\"release_date\":1311033600,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"house\",\"norm_name\":\"house\",\"url\":\"/discover/house\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"minimal\",\"norm_name\":\"minimal\",\"url\":\"/discover/minimal\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"orchestral\",\"norm_name\":\"orchestral\",\"url\":\"/discover/orchestral\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":7.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":11,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d1647701249\u0026tralbum_type\u003da"
+  }
+}

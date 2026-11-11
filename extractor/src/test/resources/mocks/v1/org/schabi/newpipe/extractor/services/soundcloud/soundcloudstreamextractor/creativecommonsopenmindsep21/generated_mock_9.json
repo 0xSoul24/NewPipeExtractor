@@ -1,0 +1,68 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1356023209/1abf07a8-57e2-4523-adca-2ba3a9dd1fe3/stream/hls?client_id\u003dc0lcDb60e4gNCrZY24mdmz9uWo1Ih29e\u0026track_authorization\u003deyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJFQyIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTc5NDM4NzczNn0.VCWarmBd5vlfKDWdT3OAgN5oE9Xnd1univ6nrxqGMsk",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 404,
+    "responseMessage": "Not Found",
+    "responseHeaders": {
+      "cache-control": [
+        "private, max-age\u003d0"
+      ],
+      "connection": [
+        "keep-alive"
+      ],
+      "content-type": [
+        "application/json; charset\u003dutf-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:02:18 GMT"
+      ],
+      "referrer-policy": [
+        "no-referrer"
+      ],
+      "server": [
+        "am/2"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Origin"
+      ],
+      "via": [
+        "1.1 250e2c5b1fe691326525ec22ed50d5a4.cloudfront.net (CloudFront)"
+      ],
+      "x-amz-cf-id": [
+        "75XyjbI4umLYQ6e46csce-H40Yb6Z6BGTFVa_OCK_dqazirVgyy4aw\u003d\u003d"
+      ],
+      "x-amz-cf-pop": [
+        "BOG51-P3"
+      ],
+      "x-cache": [
+        "Error from cloudfront"
+      ],
+      "x-content-type-options": [
+        "nosniff"
+      ],
+      "x-frame-options": [
+        "DENY"
+      ],
+      "x-robots-tag": [
+        "noindex"
+      ]
+    },
+    "responseBody": "{}",
+    "latestUrl": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1356023209/1abf07a8-57e2-4523-adca-2ba3a9dd1fe3/stream/hls?client_id\u003dc0lcDb60e4gNCrZY24mdmz9uWo1Ih29e\u0026track_authorization\u003deyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJFQyIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTc5NDM4NzczNn0.VCWarmBd5vlfKDWdT3OAgN5oE9Xnd1univ6nrxqGMsk"
+  }
+}

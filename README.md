@@ -21,6 +21,8 @@ If you're using Gradle, you could add NewPipe Extractor as a dependency with the
 ```
 
 > [!NOTE]
+> NewPipe Extractor requires Android `minSdk` 26 or higher (required by Rhino 1.9+).
+>
 > To use NewPipe Extractor in Android projects with a `minSdk` below 33, [core library desugaring](https://developer.android.com/studio/write/java8-support#library-desugaring) with the `desugar_jdk_libs_nio` artifact is required.
 
 ### Testing changes

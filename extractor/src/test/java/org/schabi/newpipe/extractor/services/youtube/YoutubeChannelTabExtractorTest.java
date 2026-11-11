@@ -184,13 +184,5 @@ class YoutubeChannelTabExtractorTest {
         @Override public String expectedUrlContains() throws Exception { return "https://www.youtube.com/channel/UCbfnHqxXs_K3kvaH-WlNlig/shorts"; }
         @Override public String expectedOriginalUrlContains() throws Exception { return "https://www.youtube.com/channel/UCbfnHqxXs_K3kvaH-WlNlig/shorts"; }
         @Override public boolean expectedHasMoreItems() { return false; }
-
-        @Test
-        @Override
-        public void testRelatedItems() throws Exception {
-            // this channel has no shorts, so an empty page is returned by the playlist extractor
-            assertTrue(extractor().getInitialPage().getItems().isEmpty());
-            assertTrue(extractor().getInitialPage().getErrors().isEmpty());
-        }
     }
 }

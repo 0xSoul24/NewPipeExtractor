@@ -23,7 +23,7 @@
         "text/html"
       ],
       "date": [
-        "Mon, 09 Nov 2026 09:09:52 GMT"
+        "Wed, 11 Nov 2026 09:02:19 GMT"
       ],
       "server": [
         "am/2"
@@ -35,13 +35,13 @@
         "Accept-Encoding"
       ],
       "via": [
-        "sssr, 1.1 2d148e8afd5950255ce014a0e33236f4.cloudfront.net (CloudFront)"
+        "sssr, 1.1 5bdd49884afa9f3d20827c4f8ae553b8.cloudfront.net (CloudFront)"
       ],
       "x-amz-cf-id": [
-        "nb8Ry_xtyS4C-blk6kIQlljV_xxqjEXWCtKBIOdVGdD9SJmdwDG9nw\u003d\u003d"
+        "P4G5keE-ZRF9S8mNCTOxPsjxvQ3xxK6s2agP8OjLyOZC5Gsl8Kzfzg\u003d\u003d"
       ],
       "x-amz-cf-pop": [
-        "FRA56-P14"
+        "BOG51-P3"
       ],
       "x-cache": [
         "Miss from cloudfront"

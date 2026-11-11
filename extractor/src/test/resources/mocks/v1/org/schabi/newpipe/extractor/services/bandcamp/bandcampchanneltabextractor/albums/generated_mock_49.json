@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2873194800\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:00:15 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-f23f-6; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340050-BOG, cache-bog-skbo2340050-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387615.041432,VS0,VE213"
+      ]
+    },
+    "responseBody": "{\"id\":2873194800,\"type\":\"a\",\"title\":\"circle\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/circle\",\"art_id\":4252844704,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":224714972,\"tracks\":[{\"track_id\":224714972,\"track_license_id\":null,\"title\":\"sleepless\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d224714972\u0026ts\u003d1794386329\u0026t\u003d622a4bae720ad4aa3245b8b6bb15379f12cc681a\"},\"duration\":552.0,\"encodings_id\":2057180385,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":1274504900,\"album_id\":2873194800,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/sleepless\"},{\"track_id\":206188085,\"track_license_id\":null,\"title\":\"deldee\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d206188085\u0026ts\u003d1794386329\u0026t\u003d9f58a43a65e196833f7dd23750dfe6671640700a\"},\"duration\":502.373,\"encodings_id\":1075888445,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2873194800,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/deldee\"},{\"track_id\":2272061274,\"track_license_id\":null,\"title\":\"minimal\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2272061274\u0026ts\u003d1794386329\u0026t\u003d66326fd2b1110618c0729b1b4a677a0d7d58f278\"},\"duration\":365.357,\"encodings_id\":624082303,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2873194800,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/minimal\"},{\"track_id\":3050922348,\"track_license_id\":null,\"title\":\"love\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3050922348\u0026ts\u003d1794386329\u0026t\u003d6fb3afc393210e5f70ee657020c070d124cf68cd\"},\"duration\":336.699,\"encodings_id\":170863645,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2873194800,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/love\"},{\"track_id\":4141875543,\"track_license_id\":null,\"title\":\"subtle cupcake rhythms\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d4141875543\u0026ts\u003d1794386329\u0026t\u003dc6031f2fafcbe38f45bcb53963e21fd0748c9f36\"},\"duration\":135.758,\"encodings_id\":54855234,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2873194800,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/subtle-cupcake-rhythms\"},{\"track_id\":3965094870,\"track_license_id\":null,\"title\":\"depado\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3965094870\u0026ts\u003d1794386329\u0026t\u003d8b1b2b06a35447aa77b6187a3882dcb725889b28\"},\"duration\":264.27,\"encodings_id\":1911614118,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2873194800,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/depado\"}],\"credits\":\"C418\",\"about\":\"ambient electronica\",\"album_id\":2873194800,\"album_title\":\"circle\",\"release_date\":1142985600,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"drum \u0026 bass\",\"norm_name\":\"drum-bass\",\"url\":\"/discover/drum-bass\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"drum and bass\",\"norm_name\":\"drum-and-bass\",\"url\":\"/discover/drum-and-bass\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electro\",\"norm_name\":\"electro\",\"url\":\"/discover/electro\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"long\",\"norm_name\":\"long\",\"url\":\"/discover/long\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"space\",\"norm_name\":\"space\",\"url\":\"/discover/space\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":0.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":6,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2873194800\u0026tralbum_type\u003da"
+  }
+}

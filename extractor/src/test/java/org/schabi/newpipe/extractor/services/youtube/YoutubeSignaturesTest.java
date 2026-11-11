@@ -36,7 +36,11 @@ class YoutubeSignaturesTest implements InitYoutubeTest {
                                     @Nonnull final String sampleString) throws Exception {
         // As the signature deobfuscation changes frequently with player versions, we can only test
         // that we get a different string than the original one
-        assertNotEquals(sampleString,
-                YoutubeJavaScriptPlayerManager.deobfuscateSignature(videoId, sampleString));
+        final String deobfuscated =
+                YoutubeJavaScriptPlayerManager.deobfuscateSignature(videoId, sampleString);
+        assertNotEquals(sampleString, deobfuscated);
+        // The deobfuscation only reorders, swaps and drops characters of the original string
+        assertTrue(deobfuscated.matches("[A-Za-z0-9_=%-]{20,}"),
+                "Unexpected deobfuscated signature: " + deobfuscated);
     }
 }

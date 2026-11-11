@@ -20,13 +20,14 @@ public class BandcampChannelExtractorTest extends DefaultSimpleExtractorTest<Cha
 
     @Override
     protected ChannelExtractor createExtractor() throws Exception {
-        return Bandcamp.getChannelExtractor("https://toupie.bandcamp.com/releases");
+        return Bandcamp.getChannelExtractor("https://c418.bandcamp.com/releases");
     }
 
     @Test
     @Override
     public void testDescription() throws Exception {
-        assertEquals("making music:)", extractor().getDescription());
+        assertTrue(extractor().getDescription()
+                .startsWith("hi it's me your favourite music man, daniel."));
     }
 
     @Test
@@ -68,25 +69,25 @@ public class BandcampChannelExtractorTest extends DefaultSimpleExtractorTest<Cha
     @Test
     @Override
     public void testName() throws Exception {
-        assertEquals("toupie", extractor().getName());
+        assertEquals("C418", extractor().getName());
     }
 
     @Test
     @Override
     public void testId() throws Exception {
-        assertEquals("2450875064", extractor().getId());
+        assertEquals("3385865266", extractor().getId());
     }
 
     @Test
     @Override
     public void testUrl() throws Exception {
-        assertEquals("https://toupie.bandcamp.com", extractor().getUrl());
+        assertEquals("https://c418.bandcamp.com", extractor().getUrl());
     }
 
     @Test
     @Override
     public void testOriginalUrl() throws Exception {
-        assertEquals("https://toupie.bandcamp.com", extractor().getUrl());
+        assertEquals("https://c418.bandcamp.com", extractor().getUrl());
     }
 
     @Test

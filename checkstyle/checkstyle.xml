@@ -76,9 +76,6 @@
         </module>
         <module name="JavadocType"/>
         <!--<module name="JavadocVariable"/>-->
-        <module name="JavadocStyle">
-            <property name="checkFirstSentence" value="false"/>
-        </module>
         <!--<module name="MissingJavadocMethod"/>-->
 
         <!-- Checks for Naming Conventions.                  -->

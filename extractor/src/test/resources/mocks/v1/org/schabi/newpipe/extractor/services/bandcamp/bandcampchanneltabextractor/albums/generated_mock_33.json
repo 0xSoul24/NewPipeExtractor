@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2358858288\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 09:00:05 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-m46v-4; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340058-BOG, cache-bog-skbo2340058-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387605.968803,VS0,VE210"
+      ]
+    },
+    "responseBody": "{\"id\":2358858288,\"type\":\"a\",\"title\":\"Dief\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/dief\",\"art_id\":3409784202,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":1398147065,\"tracks\":[{\"track_id\":762037754,\"track_license_id\":null,\"title\":\"Texture Prayers\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d762037754\u0026ts\u003d1794384889\u0026t\u003d5cd56282bcb82ba592eddf5205f1b8b6306b31eb\"},\"duration\":208.0,\"encodings_id\":1310336639,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2358858288,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/texture-prayers\"},{\"track_id\":1398147065,\"track_license_id\":null,\"title\":\"Work Life Imbalance\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1398147065\u0026ts\u003d1794384889\u0026t\u003d5ca1847f41b155c08d204b0562cb06e755700c50\"},\"duration\":209.344,\"encodings_id\":2282605009,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2358858288,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/work-life-imbalance\"},{\"track_id\":3993199743,\"track_license_id\":null,\"title\":\"Imaginary Interlude\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3993199743\u0026ts\u003d1794384889\u0026t\u003de8f1c418b6f7cb38a4cd1e08e142ce6c5b4b8efb\"},\"duration\":301.656,\"encodings_id\":667923476,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2358858288,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/imaginary-interlude\"},{\"track_id\":3649365504,\"track_license_id\":null,\"title\":\"Smooth Fall\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3649365504\u0026ts\u003d1794384889\u0026t\u003db335f70fa212102696df32bfb17bcaf3b31ffcf1\"},\"duration\":275.0,\"encodings_id\":2447657418,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2358858288,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/smooth-fall\"},{\"track_id\":2503142363,\"track_license_id\":null,\"title\":\"Blank Cubicle\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d2503142363\u0026ts\u003d1794384889\u0026t\u003dc0f20b0677d9f2b29e93a997532c9bf11929d561\"},\"duration\":282.5,\"encodings_id\":3218017916,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2358858288,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/blank-cubicle\"},{\"track_id\":3111430182,\"track_license_id\":null,\"title\":\"Keighley\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3111430182\u0026ts\u003d1794384889\u0026t\u003dc33d0cb169a76abc4a7885e8136c6f60d0dc5dc4\"},\"duration\":301.5,\"encodings_id\":1928544260,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2358858288,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/keighley\"},{\"track_id\":440680052,\"track_license_id\":null,\"title\":\"Match Cut\",\"track_num\":7,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d440680052\u0026ts\u003d1794384889\u0026t\u003deba3109c5f041d06cab7ae39f16290cbfc21ac7d\"},\"duration\":342.0,\"encodings_id\":3518703237,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":2358858288,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/match-cut\"}],\"credits\":\"Album Art by Ben Swinden http://rvaise.com\\r\\nBased on a talk conceived by Teddy Dief http://www.teddydief.com\",\"about\":\"Dief is a short album created in under two weeks for a performance piece by Teddy Dief at GDC 2017. It runs at a smooth 90BPM at all times and is here to relax and calm you down.\\r\\n\\r\\nThe album art is by creative genius Ben Swinden\",\"album_id\":2358858288,\"album_title\":\"Dief\",\"release_date\":1489363200,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"breakbeat\",\"norm_name\":\"breakbeat\",\"url\":\"/discover/breakbeat\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"orchestral\",\"norm_name\":\"orchestral\",\"url\":\"/discover/orchestral\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":4.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":7,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d2358858288\u0026tralbum_type\u003da"
+  }
+}

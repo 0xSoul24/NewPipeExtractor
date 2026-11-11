@@ -1,0 +1,62 @@
+{
+  "request": {
+    "httpMethod": "GET",
+    "url": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d1592881942\u0026tralbum_type\u003da",
+    "headers": {
+      "Accept-Language": [
+        "en-GB, en;q\u003d0.9"
+      ]
+    },
+    "localization": {
+      "languageCode": "en",
+      "countryCode": "GB"
+    }
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "",
+    "responseHeaders": {
+      "accept-ranges": [
+        "bytes"
+      ],
+      "cache-control": [
+        "no-cache, no-store"
+      ],
+      "content-type": [
+        "application/json; charset\u003dUTF-8"
+      ],
+      "date": [
+        "Wed, 11 Nov 2026 08:59:57 GMT"
+      ],
+      "server": [
+        "nginx"
+      ],
+      "set-cookie": [
+        "BACKENDID3\u003dflexocentral-fbqz-1; path\u003d/; Secure"
+      ],
+      "strict-transport-security": [
+        "max-age\u003d63072000"
+      ],
+      "vary": [
+        "Accept-Encoding"
+      ],
+      "via": [
+        "1.1 varnish, 1.1 varnish"
+      ],
+      "x-cache": [
+        "MISS, MISS"
+      ],
+      "x-cache-hits": [
+        "0, 0"
+      ],
+      "x-served-by": [
+        "cache-bog-skbo2340043-BOG, cache-bog-skbo2340043-BOG, cache-bog-skbo2340062-BOG"
+      ],
+      "x-timer": [
+        "S1794387597.806214,VS0,VE636"
+      ]
+    },
+    "responseBody": "{\"id\":1592881942,\"type\":\"a\",\"title\":\"zweitonegoismus\",\"bandcamp_url\":\"https://c418.bandcamp.com/album/zweitonegoismus\",\"art_id\":1416623975,\"band\":{\"band_id\":3385865266,\"name\":\"C418\",\"image_id\":25187517,\"bio\":\"hi it\u0027s me your favourite music man, daniel.\\n\\nyou probably know me from minecraft and then came to stay for all the other music that gets you working.\\n\\nor you are just stopping by.\\n\\nwhatever it is, hi, I\u0027m your favourite human, and occasional music man, daniel. welcome.\",\"location\":null},\"tralbum_artist\":\"C418\",\"package_art\":[],\"featured_track_id\":3850699132,\"tracks\":[{\"track_id\":3850699132,\"track_license_id\":null,\"title\":\"zweiton\",\"track_num\":1,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3850699132\u0026ts\u003d1794386329\u0026t\u003db00cece26824035df125f96a5fd62be1de412d9f\"},\"duration\":149.0,\"encodings_id\":810683776,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":3899178730,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/zweiton\"},{\"track_id\":1735639333,\"track_license_id\":null,\"title\":\"egoismus\",\"track_num\":2,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1735639333\u0026ts\u003d1794386329\u0026t\u003d651d9a618563c62b79b8dc989312422fbc1d3504\"},\"duration\":522.5,\"encodings_id\":3018894300,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/egoismus\"},{\"track_id\":1030538200,\"track_license_id\":null,\"title\":\"einfallslos\",\"track_num\":3,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1030538200\u0026ts\u003d1794386329\u0026t\u003d62165e13e4902fcfc2ecc32df7f134a922d97bf6\"},\"duration\":295.5,\"encodings_id\":3452060593,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/einfallslos\"},{\"track_id\":3404428564,\"track_license_id\":null,\"title\":\"kopfmusik\",\"track_num\":4,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3404428564\u0026ts\u003d1794386329\u0026t\u003dee85e0868388e4c7f705487197e09481de5f1362\"},\"duration\":261.0,\"encodings_id\":2889286278,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/kopfmusik\"},{\"track_id\":358903061,\"track_license_id\":null,\"title\":\"phlips\",\"track_num\":5,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d358903061\u0026ts\u003d1794386329\u0026t\u003d7e5a3c158c946b45d7cef005eb625f58b80edeb0\"},\"duration\":154.738,\"encodings_id\":1069227294,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/phlips\"},{\"track_id\":1254780803,\"track_license_id\":null,\"title\":\"krank\",\"track_num\":6,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1254780803\u0026ts\u003d1794386329\u0026t\u003d3e18e5f88391227fa243dd41764f805168daee8f\"},\"duration\":201.262,\"encodings_id\":2445089811,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/krank\"},{\"track_id\":3455404141,\"track_license_id\":null,\"title\":\"phleps\",\"track_num\":7,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d3455404141\u0026ts\u003d1794386329\u0026t\u003d6bcd14cae7eedfeaafe002b29c72c624b01bd993\"},\"duration\":106.75,\"encodings_id\":3760630622,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/phleps\"},{\"track_id\":1654688558,\"track_license_id\":null,\"title\":\"sand\",\"track_num\":8,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1654688558\u0026ts\u003d1794386329\u0026t\u003d145443adce0df3dc22584802b58dac5d1ddf062f\"},\"duration\":212.625,\"encodings_id\":576011924,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/sand\"},{\"track_id\":1692264969,\"track_license_id\":null,\"title\":\"anthem\",\"track_num\":9,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d1692264969\u0026ts\u003d1794386329\u0026t\u003d75b3a44d8223d336c14d2ca1b776f1001f41a4e3\"},\"duration\":179.125,\"encodings_id\":4220843757,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/anthem\"},{\"track_id\":18046316,\"track_license_id\":null,\"title\":\"plastik\",\"track_num\":10,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d18046316\u0026ts\u003d1794386329\u0026t\u003d61242708fb8b1e1f6b09fd95da1fcb8ab27d4dca\"},\"duration\":177.5,\"encodings_id\":633926673,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/plastik\"},{\"track_id\":4180698886,\"track_license_id\":null,\"title\":\"ritalin\",\"track_num\":11,\"streaming_url\":{\"mp3-128\":\"https://bandcamp.com/stream_redirect?enc\u003dmp3-128\u0026track_id\u003d4180698886\u0026ts\u003d1794386329\u0026t\u003d77f2796cc3959f162d401b7f9df5eff3ff0397dc\"},\"duration\":208.204,\"encodings_id\":3231699832,\"album_title\":null,\"band_name\":\"C418\",\"art_id\":null,\"album_id\":1592881942,\"is_streamable\":true,\"has_lyrics\":false,\"is_set_price\":false,\"price\":1.0,\"has_digital_download\":true,\"merch_ids\":null,\"merch_sold_out\":null,\"currency\":\"USD\",\"require_email\":false,\"is_purchasable\":true,\"band_id\":3385865266,\"label\":null,\"label_id\":null,\"track_url\":\"https://c418.bandcamp.com/track/ritalin\"}],\"credits\":\"C418\",\"about\":\"My most experimental album yet.\",\"album_id\":1592881942,\"album_title\":\"zweitonegoismus\",\"release_date\":1229385600,\"is_purchasable\":true,\"free_download\":false,\"is_preorder\":false,\"tags\":[{\"name\":\"Electronic\",\"norm_name\":\"electronic\",\"url\":\"/discover/electronic\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"ambient\",\"norm_name\":\"ambient\",\"url\":\"/discover/ambient\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"electronica\",\"norm_name\":\"electronica\",\"url\":\"/discover/electronica\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"idm\",\"norm_name\":\"idm\",\"url\":\"/discover/idm\",\"isloc\":false,\"loc_id\":null,\"geoname\":null},{\"name\":\"United States\",\"norm_name\":\"united-states\",\"url\":\"/discover/united-states\",\"isloc\":true,\"loc_id\":2264336380,\"geoname\":{\"id\":6252001,\"name\":\"United States of America\",\"fullname\":\"United States of America\"}}],\"currency\":\"USD\",\"is_set_price\":false,\"price\":0.0,\"require_email\":false,\"label\":null,\"label_id\":null,\"package_details_lite\":{},\"has_digital_download\":true,\"num_downloadable_tracks\":11,\"merch_sold_out\":true,\"streaming_limit\":3}",
+    "latestUrl": "https://bandcamp.com/api/mobile/22/tralbum_details?band_id\u003d3385865266\u0026tralbum_id\u003d1592881942\u0026tralbum_type\u003da"
+  }
+}
