@@ -164,7 +164,10 @@ public class YoutubeSearchExtractorTest {
 
     public static class RandomQueryNoMorePages extends DefaultSearchExtractorTest
         implements InitYoutubeTest {
-        private static final String QUERY = "UCO6AK";
+        // A random query which gives only a few results, so YouTube stops returning pages quickly
+        private static final String QUERY = "qwzx7k3vbn";
+        // YouTube may return a few non-empty pages before the last empty one
+        private static final int MAX_PAGES = 10;
 
         @Override
         protected SearchExtractor createExtractor() throws Exception {
@@ -187,13 +190,22 @@ public class YoutubeSearchExtractorTest {
         @Test
         public void testMoreRelatedItems() throws Exception {
             final ListExtractor.InfoItemsPage<InfoItem> initialPage = extractor().getInitialPage();
-            // YouTube actually gives us an empty next page, but after that, no more pages.
+            // YouTube gives us a next page, even if there are no more results. After a few
+            // pages, it gives us an empty page (only containing a "No more results" message),
+            // and after that, no more pages.
             assertTrue(initialPage.hasNextPage());
-            final ListExtractor.InfoItemsPage<InfoItem> nextEmptyPage = extractor().getPage(initialPage.getNextPage());
-            assertEquals(0, nextEmptyPage.getItems().size());
-            assertEmptyErrors("Empty page has errors", nextEmptyPage.getErrors());
 
-            assertFalse(nextEmptyPage.hasNextPage(), "More items available when it shouldn't");
+            ListExtractor.InfoItemsPage<InfoItem> page = initialPage;
+            int pageCount = 0;
+            while (page.hasNextPage() && pageCount < MAX_PAGES) {
+                page = extractor().getPage(page.getNextPage());
+                assertEmptyErrors("Page " + pageCount + " has errors", page.getErrors());
+                pageCount++;
+            }
+
+            assertFalse(page.hasNextPage(),
+                    "More items available after " + MAX_PAGES + " pages when it shouldn't");
+            assertEquals(0, page.getItems().size(), "Last page is not empty");
         }
     }
 
@@ -391,7 +403,9 @@ public class YoutubeSearchExtractorTest {
 
         @Override
         protected SearchExtractor createExtractor() throws Exception {
-            return YouTube.getSearchExtractor(QUERY, singletonList(VIDEOS), "");
+            // The videos filter doesn't return short-form contents anymore: they are returned in
+            // shelves of the search results without filters (or with the dedicated shorts filter)
+            return YouTube.getSearchExtractor(QUERY);
         }
 
         @Override public StreamingService expectedService() { return YouTube; }
@@ -401,7 +415,6 @@ public class YoutubeSearchExtractorTest {
         @Override public String expectedOriginalUrlContains() throws Exception { return "youtube.com/results?search_query=" + Utils.encodeUrlUtf8(QUERY); }
         @Override public String expectedSearchString() { return QUERY; }
         @Nullable @Override public String expectedSearchSuggestion() { return null; }
-        @Override public InfoItem.InfoType expectedInfoItemType() { return InfoItem.InfoType.STREAM; }
 
         @Test
         void testShortFormContent() throws IOException, ExtractionException {

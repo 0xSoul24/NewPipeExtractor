@@ -25,10 +25,13 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assumptions.assumeFalse;
 import static org.schabi.newpipe.extractor.ServiceList.YouTube;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.schabi.newpipe.downloader.DownloaderFactory;
+import org.schabi.newpipe.downloader.DownloaderType;
 import org.schabi.newpipe.extractor.InitNewPipeTest;
 import org.schabi.newpipe.extractor.MetaInfo;
 import org.schabi.newpipe.extractor.StreamingService;
@@ -74,8 +77,9 @@ public class YoutubeStreamExtractorDefaultTest {
         void geoRestrictedContent() throws Exception {
             initNewPipe("restricted");
 
+            // Muse Asia only makes its episodes available in (some) Asian countries
             final StreamExtractor extractor =
-                    YouTube.getStreamExtractor(BASE_URL + "6aAmUNLF4yk");
+                    YouTube.getStreamExtractor(BASE_URL + "59DH_R4Ccs8");
             assertThrows(GeographicRestrictionException.class, extractor::fetchPage);
         }
 
@@ -413,6 +417,17 @@ public class YoutubeStreamExtractorDefaultTest {
                     "documentaire arte", "arte documentaire", "fan d'arte", "arte youtube");
         }
         // @formatter:on
+
+        @Test
+        @Override
+        public void testMetaInfo() throws Exception {
+            // YouTube shows public broadcaster notices only in some countries (e.g. Germany, where
+            // the mocks were recorded), so skip this test on live runs where it is not shown
+            assumeFalse(DownloaderFactory.getDownloaderType() == DownloaderType.REAL
+                            && extractor().getMetaInfo().isEmpty(),
+                    "No public broadcaster notice is shown in the country of this IP address");
+            super.testMetaInfo();
+        }
     }
 
     public static class LicensedDoctorTest extends DefaultStreamExtractorTest

@@ -257,6 +257,15 @@ public class YoutubeSearchExtractor extends SearchExtractor {
                     collector.commit(new YoutubeStreamInfoItemLockupExtractor(
                             lockupViewModel, timeAgoParser));
                 }
+            } else if (item.has("gridShelfViewModel") && extractVideoResults) {
+                // Shorts are returned in shelves of shortsLockupViewModels
+                item.getObject("gridShelfViewModel")
+                        .getArray("contents")
+                        .streamAsJsonObjects()
+                        .filter(shelfItem -> shelfItem.has("shortsLockupViewModel"))
+                        .forEachOrdered(shelfItem -> collector.commit(
+                                new YoutubeShortsLockupInfoItemExtractor(
+                                        shelfItem.getObject("shortsLockupViewModel"))));
             }
         }
     }

@@ -76,6 +76,7 @@ public class YoutubeKioskExtractorTest {
         }
     }
 
+    @Disabled("YouTube removed the logged-out Podcasts page (/podcasts returns 404)")
     public static class TrendingPodcastsEpisodes extends
             DefaultSimpleExtractorTest<YoutubeTrendingPodcastsEpisodesExtractor>
             implements BaseListExtractorTest, InitYoutubeTest {

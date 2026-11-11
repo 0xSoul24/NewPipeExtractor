@@ -63,15 +63,35 @@ public class YoutubeMusicAlbumOrPlaylistInfoItemExtractor implements PlaylistInf
 
     @Override
     public String getUrl() throws ParsingException {
-        String playlistId = albumOrPlaylistInfoItem.getObject("menu")
+        final JsonArray menuItems = albumOrPlaylistInfoItem.getObject("menu")
                 .getObject("menuRenderer")
-                .getArray("items")
-                .getObject(4)
-                .getObject("toggleMenuServiceItemRenderer")
-                .getObject("toggledServiceEndpoint")
-                .getObject("likeEndpoint")
-                .getObject("target")
-                .getString("playlistId");
+                .getArray("items");
+
+        // The like button of the menu, if present, contains the playlist ID
+        String playlistId = menuItems.streamAsJsonObjects()
+                .map(item -> item.getObject("toggleMenuServiceItemRenderer")
+                        .getObject("toggledServiceEndpoint")
+                        .getObject("likeEndpoint")
+                        .getObject("target")
+                        .getString("playlistId"))
+                .filter(id -> !isNullOrEmpty(id))
+                .findFirst()
+                .orElse(null);
+
+        if (isNullOrEmpty(playlistId)) {
+            // Some items only have shuffle play and start mix menu entries; the shuffle play one
+            // uses the playlist ID, while the start mix one uses a radio playlist ID
+            playlistId = menuItems.streamAsJsonObjects()
+                    .map(item -> item.getObject("menuNavigationItemRenderer"))
+                    .filter(item -> "MUSIC_SHUFFLE".equals(
+                            item.getObject("icon").getString("iconType")))
+                    .map(item -> item.getObject("navigationEndpoint")
+                            .getObject("watchPlaylistEndpoint")
+                            .getString("playlistId"))
+                    .filter(id -> !isNullOrEmpty(id))
+                    .findFirst()
+                    .orElse(null);
+        }
 
         if (isNullOrEmpty(playlistId)) {
             playlistId = albumOrPlaylistInfoItem.getObject("overlay")

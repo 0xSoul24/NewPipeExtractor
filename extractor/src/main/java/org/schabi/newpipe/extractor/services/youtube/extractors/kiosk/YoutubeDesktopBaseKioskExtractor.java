@@ -14,6 +14,7 @@ import com.grack.nanojson.JsonWriter;
 import org.schabi.newpipe.extractor.Page;
 import org.schabi.newpipe.extractor.StreamingService;
 import org.schabi.newpipe.extractor.downloader.Downloader;
+import org.schabi.newpipe.extractor.exceptions.ContentNotAvailableException;
 import org.schabi.newpipe.extractor.exceptions.ExtractionException;
 import org.schabi.newpipe.extractor.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.kiosk.KioskExtractor;
@@ -57,6 +58,11 @@ abstract class YoutubeDesktopBaseKioskExtractor extends KioskExtractor<StreamInf
                 params,
                 getExtractorLocalization(),
                 getExtractorContentCountry());
+
+        if (!responseData.jsonResponse.has("contents")) {
+            throw new ContentNotAvailableException("Kiosk " + getId()
+                    + " is not available: YouTube returned no content");
+        }
     }
 
     @Nonnull

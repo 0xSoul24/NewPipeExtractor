@@ -3,12 +3,15 @@ package org.schabi.newpipe.extractor.services.youtube.stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assumptions.assumeFalse;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertGreaterOrEqual;
 import static org.schabi.newpipe.extractor.ServiceList.YouTube;
 import static org.schabi.newpipe.extractor.services.youtube.stream.YoutubeStreamExtractorDefaultTest.YOUTUBE_LICENCE;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.schabi.newpipe.downloader.DownloaderFactory;
+import org.schabi.newpipe.downloader.DownloaderType;
 import org.schabi.newpipe.extractor.InfoItem;
 import org.schabi.newpipe.extractor.StreamingService;
 import org.schabi.newpipe.extractor.playlist.PlaylistInfo.PlaylistType;
@@ -96,6 +99,12 @@ public class YoutubeStreamExtractorRelatedMixTest extends DefaultStreamExtractor
         final List<PlaylistInfoItem> streamMixes = playlists.stream()
                 .filter(item -> item.getPlaylistType().equals(PlaylistType.MIX_STREAM))
                 .collect(Collectors.toList());
+        // YouTube puts the mix in the first batch of related items for only some visitors (about
+        // half of the time); for the others, it is in the second batch, which is not extracted.
+        // The mocks contain a mix in the first batch, so only skip this test on live runs.
+        assumeFalse(DownloaderFactory.getDownloaderType() == DownloaderType.REAL
+                        && streamMixes.isEmpty(),
+                "YouTube didn't return a stream mix in the first batch of related items");
         assertGreaterOrEqual(1, streamMixes.size(), "Not found one or more stream mix in related items");
 
         final PlaylistInfoItem streamMix = streamMixes.get(0);

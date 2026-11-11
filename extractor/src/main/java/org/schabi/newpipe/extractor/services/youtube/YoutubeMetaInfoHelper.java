@@ -67,14 +67,48 @@ public final class YoutubeMetaInfoHelper {
     private static MetaInfo getInfoPanelContent(@Nonnull final JsonObject infoPanelContentRenderer)
             throws ParsingException {
         final MetaInfo metaInfo = new MetaInfo();
-        final StringBuilder sb = new StringBuilder();
-        for (final Object paragraph : infoPanelContentRenderer.getArray("paragraphs")) {
-            if (sb.length() != 0) {
-                sb.append("<br>");
+        // Name of the source, only present in the text of attributed paragraphs
+        String attributedSourceName = null;
+
+        if (infoPanelContentRenderer.has("paragraphs")) {
+            final StringBuilder sb = new StringBuilder();
+            for (final Object paragraph : infoPanelContentRenderer.getArray("paragraphs")) {
+                if (sb.length() != 0) {
+                    sb.append("<br>");
+                }
+                sb.append(getTextFromObject((JsonObject) paragraph));
             }
-            sb.append(getTextFromObject((JsonObject) paragraph));
+            metaInfo.setContent(Description.of(sb.toString(), Description.Type.HTML));
+        } else {
+            // Attributed paragraphs look like "Source name • Text", where the source name and the
+            // separator are the first style run of the first paragraph (in a medium weight font)
+            final StringBuilder sb = new StringBuilder();
+            final JsonArray paragraphs = infoPanelContentRenderer.getArray("attributedParagraphs");
+            for (int i = 0; i < paragraphs.size(); i++) {
+                final JsonObject paragraph = paragraphs.getObject(i);
+                String text = paragraph.getString("content", "");
+
+                if (i == 0) {
+                    final JsonObject firstStyleRun = paragraph.getArray("styleRuns")
+                            .getObject(0);
+                    final int sourceLength = firstStyleRun.getInt("length", -1);
+                    if (firstStyleRun.getInt("startIndex", -1) == 0
+                            && sourceLength > 0 && sourceLength < text.length()) {
+                        attributedSourceName = text.substring(0, sourceLength)
+                                .replace("•", "")
+                                .trim();
+                        text = text.substring(sourceLength).trim();
+                    }
+                }
+
+                if (sb.length() != 0) {
+                    sb.append("\n");
+                }
+                sb.append(text);
+            }
+            metaInfo.setContent(Description.of(sb.toString(), Description.Type.PLAIN_TEXT));
         }
-        metaInfo.setContent(Description.of(sb.toString(), Description.Type.HTML));
+
         if (infoPanelContentRenderer.has("sourceEndpoint")) {
             final String metaInfoLinkUrl = getUrlFromNavigationEndpoint(
                     infoPanelContentRenderer.getObject("sourceEndpoint"));
@@ -89,9 +123,11 @@ public final class YoutubeMetaInfoHelper {
             if (infoPanelContentRenderer.has("inlineSource")) {
                 metaInfoLinkText = getTextFromObject(
                         infoPanelContentRenderer.getObject("inlineSource"));
-            } else {
+            } else if (infoPanelContentRenderer.has("disclaimer")) {
                 metaInfoLinkText = getTextFromObject(
                         infoPanelContentRenderer.getObject("disclaimer"));
+            } else {
+                metaInfoLinkText = attributedSourceName;
             }
             if (isNullOrEmpty(metaInfoLinkText)) {
                 throw new ParsingException("Could not get metadata info link text.");
